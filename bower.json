@@ -1,0 +1,17 @@
+{
+  "name": "atom",
+  "description": "my new test for atom,hahahha",
+  "main": "index.js",
+  "authors": [
+    "username <username@email.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/macarole/atom",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
