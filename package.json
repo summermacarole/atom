@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/macarole/atom/issues"
   },
-  "homepage": "https://github.com/macarole/atom#readme"
+  "homepage": "https://github.com/macarole/atom#readme",
+  "dependencies": {
+    "angular-ui-router": "^0.3.1"
+  }
 }
