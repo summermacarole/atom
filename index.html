@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh-cn" ng-app="myApp">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="src/css/main.css">
+  <script src="bower_components/angular/angular.min.js"></script>
+  <script src="node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
+  <script src="bower_components/lodash/lodash.js"></script>
+  <script src="bower_components/restangular/dist/restangular.min.js"></script>
+  <script src="src/js/login.js"></script>
+</head>
+<body ng-controller="myCtrl">
+  <div ui-view="head"></div>
+  <div ui-view></div>
+  <div ui-view="foot"></div>
+
+
+
+</body>
+</html>
